@@ -1,0 +1,82 @@
+PS C:\Users\abhis\OneDrive\Desktop\heart-disease-prediction-system> python model-training-evaluation.py
+
+Loading the selected features dataset...
+
+Handling missing values in the features (X)...
+Missing values handled successfully.
+
+Splitting dataset into training and testing sets...
+Training set size: 1045
+Testing set size: 448
+
+Training and evaluating Logistic Regression...
+Performance Metrics for Logistic Regression:
+Accuracy: 0.8058, Precision: 0.7950, Recall: 0.8333, F1-score: 0.8137, ROC-AUC: 0.8667
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.78      0.80       220
+         1.0       0.79      0.83      0.81       228
+
+    accuracy                           0.81       448
+   macro avg       0.81      0.81      0.81       448
+weighted avg       0.81      0.81      0.81       448
+
+
+Training and evaluating Decision Tree Classifier...
+Performance Metrics for Decision Tree Classifier:
+Accuracy: 0.8281, Precision: 0.8326, Recall: 0.8289, F1-score: 0.8308, ROC-AUC: 0.8281
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.83      0.83       220
+         1.0       0.83      0.83      0.83       228
+
+    accuracy                           0.83       448
+   macro avg       0.83      0.83      0.83       448
+weighted avg       0.83      0.83      0.83       448
+
+
+Training and evaluating Random Forest Classifier...
+Performance Metrics for Random Forest Classifier:
+Accuracy: 0.8862, Precision: 0.8672, Recall: 0.9167, F1-score: 0.8913, ROC-AUC: 0.9500
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.91      0.85      0.88       220
+         1.0       0.87      0.92      0.89       228
+
+    accuracy                           0.89       448
+   macro avg       0.89      0.89      0.89       448
+weighted avg       0.89      0.89      0.89       448
+
+
+Training and evaluating Gradient Boosting Classifier...
+Performance Metrics for Gradient Boosting Classifier:
+Accuracy: 0.8281, Precision: 0.8107, Recall: 0.8640, F1-score: 0.8365, ROC-AUC: 0.9094
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.79      0.82       220
+         1.0       0.81      0.86      0.84       228
+
+    accuracy                           0.83       448
+   macro avg       0.83      0.83      0.83       448
+weighted avg       0.83      0.83      0.83       448
+
+
+Saving the best model to 'best_model.pkl'...
+Model saved successfully!
+
+Tuned Random Forest Model Performance
+Accuracy: 88.62%
+
+ROC-AUC: 95.00%
+
+Precision (0): 91%, Recall (0): 85%, F1-Score (0): 88%
+
+Precision (1): 87%, Recall (1): 92%, F1-Score (1): 89%
