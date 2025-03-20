@@ -1,9 +1,8 @@
-# Heart-Disease-Prediction-system
-
-###Overview
+Heart Disease Prediction System
+Overview
 The Heart Disease Prediction System is a machine learning-powered web application designed to predict the likelihood of heart disease based on user-provided health metrics. It also provides interactive exploratory data analysis (EDA) tools for visualizing dataset trends. Built with Python, the system leverages a Random Forest Classifier for accurate predictions and is deployed via Streamlit for an intuitive user interface.
 
-###Features
+Features
 Heart Disease Prediction:
 
 Users input health data, including age, blood pressure, cholesterol, and more.
@@ -22,11 +21,11 @@ Scatter plots (relationships between features and target).
 
 Correlation heatmaps (relationships between features).
 
-###Automated Testing:
+Automated Testing:
 
 A robust test suite validates model accuracy across diverse cases, such as edge cases, real-world scenarios, and invalid inputs.
 
-###Technologies Used
+Technologies Used
 Programming Language: Python
 
 Frameworks: Streamlit for web deployment
@@ -39,7 +38,7 @@ Visualization: matplotlib, seaborn
 
 Machine Learning: scikit-learn
 
-###Setup Instructions
+Setup Instructions
 To set up the project, follow these steps:
 
 Clone the Repository:
@@ -69,8 +68,7 @@ Run Automated Tests (Optional):
 
 bash
 python automated_testing.py
-
-###Folder Structure
+Folder Structure
 heart-disease-prediction-system/
 │
 ├── Data/
@@ -83,8 +81,7 @@ heart-disease-prediction-system/
 ├── README.md                              # Project documentation
 ├── requirements.txt                       # Python dependencies
 └── ...                                    # Additional files as needed
-
-###How to Use the Application
+How to Use the Application
 Prediction System:
 
 Open the app in a web browser (http://localhost:8501) after running the command:
@@ -105,7 +102,7 @@ Select the desired analysis type (e.g., feature distributions, scatter plots, he
 
 Explore insights interactively via visualizations.
 
-###Exploratory Data Analysis Summary
+Exploratory Data Analysis Summary
 Feature Distributions:
 
 Age: Standardized values range from -2.8 to 2.49.
@@ -124,7 +121,7 @@ Cholesterol vs. Max HR: Weak positive correlation.
 
 ST Depression vs. Target: Strong correlation indicates predictive importance.
 
-###Testing Details
+Testing Details
 Total Test Cases: 6
 
 PASS: 4
@@ -135,7 +132,7 @@ Results:
 
 The model accurately predicts most cases but needs better handling of moderate risk levels.
 
-###Future Enhancements
+Future Enhancements
 Deploy Online:
 
 Host the app on platforms like Heroku, AWS, or Azure.
