@@ -1,6 +1,4 @@
 Heart Disease Prediction System
-A machine learning-based web application to predict the likelihood of heart disease and explore dataset insights interactively.
-
 Overview
 The Heart Disease Prediction System is a comprehensive tool that combines machine learning predictions with exploratory data analysis (EDA). Built using a Random Forest Classifier, the project predicts the probability of heart disease based on user-provided health metrics and allows users to explore the dataset interactively through a Streamlit app.
 
